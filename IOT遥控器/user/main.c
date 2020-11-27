@@ -133,16 +133,16 @@ int main(void)
             while(S8!=1);
    
          }	
-        if(D1==0)	
-        {
-		    delay_ms(10);
-            if(D1==0)
-            {
-                USART_SendData(USART2,'c');
-            }
-            while(D1!=1);
-   
-        }
+//        if(D1==0)	
+//        {
+//		    delay_ms(10);
+//            if(D1==0)
+//            {
+//                USART_SendData(USART2,'c');
+//            }
+//            while(D1!=1);
+//   
+//        }
 	    if(D2==0)	
         {
             delay_ms(10);

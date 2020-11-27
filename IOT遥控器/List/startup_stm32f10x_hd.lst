@@ -552,12 +552,11 @@ ARM Macro Assembler    Page 9
               00000000 
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
-ork --depend=.\obj\startup_stm32f10x_hd.d -o.\obj\startup_stm32f10x_hd.o -I"C:\
-Users\86153\Desktop\Information of hkUST intramural Race car drivers\IOTÒ£¿ØÆ÷\
-RTE" -IC:\Soft\MDK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM3\Include -IC:\Soft\MDK\ARM\
-CMSIS\Include --predefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SE
-TA 520" --predefine="ARMCM3 SETA 1" --list=.\list\startup_stm32f10x_hd.lst star
-tup\startup_stm32f10x_hd.s
+ork --depend=.\obj\startup_stm32f10x_hd.d -o.\obj\startup_stm32f10x_hd.o -IC:\U
+sers\86153\Desktop\TITR\IOTÒ£¿ØÆ÷\RTE -IC:\Soft\MDK\ARM\CMSIS\4.5.0\Device\ARM\
+ARMCM3\Include -IC:\Soft\MDK\ARM\CMSIS\Include --predefine="__MICROLIB SETA 1" 
+--predefine="__UVISION_VERSION SETA 520" --predefine="ARMCM3 SETA 1" --list=.\l
+ist\startup_stm32f10x_hd.lst startup\startup_stm32f10x_hd.s
 
 
 
