@@ -143,15 +143,15 @@ int main(void)
 //            while(D1!=1);
 //   
 //        }
-	    if(D2==0)	
-        {
-            delay_ms(10);
-            if(D2==0)
-            {
-                USART_SendData(USART2,'f');
-            }
-            while(D2!=1); 
-        }
+//	    if(D2==0)	
+//        {
+//            delay_ms(10);
+//            if(D2==0)
+//            {
+//                USART_SendData(USART2,'f');
+//            }
+//            while(D2!=1); 
+//        }
         if(D3==0)	
         {
             delay_ms(10);
