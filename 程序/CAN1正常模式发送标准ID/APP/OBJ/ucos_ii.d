@@ -1,0 +1,14 @@
+.\OBJ\ucos_ii.o: ..\uCOSII\Source\ucos_ii.c
+.\OBJ\ucos_ii.o: ..\uCOSII\Source\ucos_ii.h
+.\OBJ\ucos_ii.o: ..\APP\os_cfg.h
+.\OBJ\ucos_ii.o: ..\uCOSII\Ports\os_cpu.h
+.\OBJ\ucos_ii.o: ..\uCOSII\Source\os_core.c
+.\OBJ\ucos_ii.o: ..\uCOSII\Source\os_flag.c
+.\OBJ\ucos_ii.o: ..\uCOSII\Source\os_mbox.c
+.\OBJ\ucos_ii.o: ..\uCOSII\Source\os_mem.c
+.\OBJ\ucos_ii.o: ..\uCOSII\Source\os_mutex.c
+.\OBJ\ucos_ii.o: ..\uCOSII\Source\os_q.c
+.\OBJ\ucos_ii.o: ..\uCOSII\Source\os_sem.c
+.\OBJ\ucos_ii.o: ..\uCOSII\Source\os_task.c
+.\OBJ\ucos_ii.o: ..\uCOSII\Source\os_time.c
+.\OBJ\ucos_ii.o: ..\uCOSII\Source\os_tmr.c

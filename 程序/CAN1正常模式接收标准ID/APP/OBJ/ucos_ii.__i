@@ -1,0 +1,5 @@
+-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\APP -I..\BSP -I..\CMSIS\Include -I..\CMSIS\ST\STM32F4xx\Include -I..\FWLIB\inc -I..\uCOSII\Ports -I..\uCOSII\Source -I..\USER 
+-I D:\Keil4.70a\ARM\RV31\INC 
+-I D:\Keil4.70a\ARM\CMSIS\Include 
+-I D:\Keil4.70a\ARM\Inc\ST\STM32F4xx 
+-DSTM32F4XX -DUSE_STDPERIPH_DRIVER -DHSE_VALUE="8000000" -D__FPU_PRESENT="1" -DARM_MATH_CM4 -D__CC_ARM -o ".\OBJ\ucos_ii.o" --omf_browse ".\OBJ\ucos_ii.crf" --depend ".\OBJ\ucos_ii.d" "..\uCOSII\Source\ucos_ii.c"
