@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I.\FWlib\inc -I.\user -I.\CM3 -I.\delay -I D:\Keil4\ARM\RV31\Inc -I D:\Keil4\ARM\CMSIS\Include -I D:\Keil4\ARM\Inc\ST\STM32F10x -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DUSE_STM3210B_EVAL -o ".\Obj\led.o" --omf_browse ".\Obj\led.crf" --depend ".\Obj\led.d" "new\led.c"
