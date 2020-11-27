@@ -160,7 +160,7 @@ void Motion_setPWM(int PWMR,int PWML)
 		                    GPIO_ResetBits(DRIVER_GPIO_PORT, LB_DRIVER_B2_PIN);
 		                    TIM_SetCompare1(GENERAL_TIM, -PWML);     
                         TIM_SetCompare2(GENERAL_TIM, -PWML);}
-					//	printf("22222222222");
+					  printf("22222222222");
 						break;
 	}
 	/*******************************”“¬÷øÿ÷∆*********************************/

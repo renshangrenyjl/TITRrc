@@ -30,3 +30,6 @@ void JDQ_off(void)
 	 GPIO_SetBits(GPIOB,GPIO_Pin_12);//关闭继电器
 	printf("继电器关闭");
 }
+
+
+

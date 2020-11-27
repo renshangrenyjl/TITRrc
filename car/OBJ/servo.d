@@ -2,7 +2,7 @@
 ..\obj\servo.o: ..\HARDWARE\timer\timer.h
 ..\obj\servo.o: ..\USER\stm32f10x.h
 ..\obj\servo.o: ..\CORE\core_cm3.h
-..\obj\servo.o: D:\keil51&32\MDK(32)\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\servo.o: C:\Soft\MDK\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\servo.o: ..\USER\system_stm32f10x.h
 ..\obj\servo.o: ..\USER\stm32f10x_conf.h
 ..\obj\servo.o: ..\STM32F10x_FWLib\inc\stm32f10x_adc.h

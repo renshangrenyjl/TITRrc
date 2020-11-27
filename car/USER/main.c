@@ -85,6 +85,7 @@ int main()
 	while(1)
 	{
 		 move_one();
+   
 //		TIM_SetCompare2(TIM3, 1870);//爪子抬起
 //		      delay_ms(300);
 //		TIM_SetCompare1(TIM3, 1750);//爪子打开

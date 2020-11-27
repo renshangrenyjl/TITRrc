@@ -2,7 +2,7 @@
 ..\obj\move.o: ..\HARDWARE\move.h
 ..\obj\move.o: ..\USER\stm32f10x.h
 ..\obj\move.o: ..\CORE\core_cm3.h
-..\obj\move.o: D:\keil51&32\MDK(32)\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\move.o: C:\Soft\MDK\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\move.o: ..\USER\system_stm32f10x.h
 ..\obj\move.o: ..\USER\stm32f10x_conf.h
 ..\obj\move.o: ..\STM32F10x_FWLib\inc\stm32f10x_adc.h
@@ -30,7 +30,7 @@
 ..\obj\move.o: ..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h
 ..\obj\move.o: ..\STM32F10x_FWLib\inc\misc.h
 ..\obj\move.o: ..\SYSTEM\usart\usart.h
-..\obj\move.o: D:\keil51&32\MDK(32)\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\move.o: C:\Soft\MDK\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\move.o: ..\SYSTEM\sys\sys.h
 ..\obj\move.o: ..\HARDWARE\xunji.h
 ..\obj\move.o: ..\HARDWARE\JDQ\JDQ.h
