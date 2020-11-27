@@ -3,7 +3,7 @@
 <title>Static Call Graph - [..\OBJ\Template.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image ..\OBJ\Template.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060183: Last Updated: Fri Nov 27 14:29:00 2020
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060183: Last Updated: Fri Nov 27 14:31:21 2020
 <BR><P>
 <H3>Maximum Stack Usage =        368 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -410,7 +410,6 @@ Global Symbols
 </UL>
 <BR>[Called By]<UL><LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;move_one
 <LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mpu_init
-<LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Motion_setPWM
 </UL>
 
 <P><STRONG><a name="[46]"></a>_printf_int_dec</STRONG> (Thumb, 104 bytes, Stack size 24 bytes, _printf_dec.o(.text))
@@ -980,13 +979,11 @@ Global Symbols
 <LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xunji_start
 </UL>
 
-<P><STRONG><a name="[9d]"></a>Motion_setPWM</STRONG> (Thumb, 346 bytes, Stack size 16 bytes, pwm.o(i.Motion_setPWM))
-<BR><BR>[Stack]<UL><LI>Max Depth = 160 + Unknown Stack Size
-<LI>Call Chain = Motion_setPWM &rArr; __2printf &rArr; _printf_char_file &rArr; _printf_char_common &rArr; __printf
+<P><STRONG><a name="[9d]"></a>Motion_setPWM</STRONG> (Thumb, 340 bytes, Stack size 16 bytes, pwm.o(i.Motion_setPWM))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = Motion_setPWM
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_SetBits
 <LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_ResetBits
-<LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
 <LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_SetCompare4
 <LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_SetCompare3
 <LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_SetCompare2
@@ -1860,8 +1857,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[f3]"></a>xunji_start</STRONG> (Thumb, 1888 bytes, Stack size 8 bytes, move.o(i.xunji_start))
-<BR><BR>[Stack]<UL><LI>Max Depth = 312 + Unknown Stack Size
-<LI>Call Chain = xunji_start &rArr; mpu_dmp_get_data &rArr; dmp_read_fifo &rArr; mpu_read_fifo_stream &rArr; mpu_reset_fifo &rArr; MPU_Write_Len &rArr; MPU_IIC_Wait_Ack &rArr; MPU_IIC_Stop &rArr; MPU_IIC_Delay
+<BR><BR>[Stack]<UL><LI>Max Depth = 312<LI>Call Chain = xunji_start &rArr; mpu_dmp_get_data &rArr; dmp_read_fifo &rArr; mpu_read_fifo_stream &rArr; mpu_reset_fifo &rArr; MPU_Write_Len &rArr; MPU_IIC_Wait_Ack &rArr; MPU_IIC_Stop &rArr; MPU_IIC_Delay
 </UL>
 <BR>[Calls]<UL><LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_init
 <LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Motion_TIM_Init
